@@ -25,9 +25,11 @@ for filename in $HOME/dotfiles/.oh-my-zsh/custom/*.zsh; do
 	rm $ZSH/custom/$name
 	ln -s $filename $ZSH/custom/$name
 done
-#rm -r $ZSH/custom
-#ln -s $HOME/dotfiles/.oh-my-zsh/custom $ZSH/custom
 
 # Install everything else
 brew bundle
 
+# Config
+. config/git.sh
+. config/gpg.sh
+. config/vim.sh
