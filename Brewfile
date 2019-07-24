@@ -20,8 +20,10 @@ brew "pinentry-mac"
 brew "postgresql@9.6"
 brew "rbenv"
 brew "redis"
+brew "tmux"
 brew "vim"
 
+cask "authy"
 cask "charles" unless system("test -e \"#{appdir}/Charles.app\"")
 cask "docker" unless system("test -e \"#{appdir}/Docker.app\"")
 cask "firefox" unless system("test -e \"#{appdir}/Firefox.app\"")

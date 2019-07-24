@@ -30,6 +30,6 @@ done
 brew bundle
 
 # Config
-. config/git.sh
-. config/gpg.sh
-. config/vim.sh
+for config in config/*; do 
+	. $config
+done
