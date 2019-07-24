@@ -8,6 +8,7 @@ tap "homebrew/services"
 
 brew "awscli"
 brew "bat"
+brew "cmake"
 brew "fzf"
 brew "git"
 brew "gnupg"
@@ -15,13 +16,16 @@ brew "gnupg2"
 brew "go"
 brew "kubectx"
 brew "kubernetes-cli"
-brew "node"
+brew "libmagic"
+brew "node@10"
 brew "pinentry-mac"
+brew "postgresql"
 brew "postgresql@9.6"
 brew "rbenv"
 brew "redis"
 brew "tmux"
 brew "vim"
+brew "yarn"
 
 cask "authy"
 cask "charles" unless system("test -e \"#{appdir}/Charles.app\"")
@@ -32,5 +36,6 @@ cask "iterm2" unless system("test -e \"#{appdir}/iTerm.app\"")
 cask "postico" unless system("test -e \"#{appdir}/Postico.app\"")
 cask "slack" unless system("test -e #{appdir}/Slack.app")
 cask "spectacle" unless system("test -e #{appdir}/Spectacle.app")
+cask "tunnelblick"
 cask "visual-studio-code" unless system("test -e \"#{appdir}/Visual Studio Code.app\"")
 cask "zoomus" unless system("test -e \"#{appdir}/zoom.us.app\"")
