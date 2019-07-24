@@ -14,6 +14,7 @@ brew "git"
 brew "gnupg"
 brew "gnupg2"
 brew "go"
+brew "jq"
 brew "kubectx"
 brew "kubernetes-cli"
 brew "libmagic"
@@ -36,6 +37,7 @@ cask "iterm2" unless system("test -e \"#{appdir}/iTerm.app\"")
 cask "postico" unless system("test -e \"#{appdir}/Postico.app\"")
 cask "slack" unless system("test -e #{appdir}/Slack.app")
 cask "spectacle" unless system("test -e #{appdir}/Spectacle.app")
-cask "tunnelblick"
+cask "tunnelblick" unless system("test -e #{appdir}/Tunnelblick.app")
+cask "spotify" unless system("test -e #{appdir}/Spotify.app")
 cask "visual-studio-code" unless system("test -e \"#{appdir}/Visual Studio Code.app\"")
 cask "zoomus" unless system("test -e \"#{appdir}/zoom.us.app\"")
