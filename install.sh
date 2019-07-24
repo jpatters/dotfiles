@@ -29,6 +29,9 @@ done
 # Install everything else
 brew bundle
 
+# Force link node
+brew link --force --overwrite node@10
+
 # Config
 for config in config/*; do 
 	. $config
