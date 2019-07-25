@@ -11,6 +11,7 @@ brew "bat"
 brew "cmake"
 brew "fzf"
 brew "git"
+brew "git-lfs"
 brew "gnupg"
 brew "gnupg2"
 brew "go"
@@ -18,17 +19,18 @@ brew "jq"
 brew "kubectx"
 brew "kubernetes-cli"
 brew "libmagic"
+brew "openssl"
 brew "node@10"
 brew "pinentry-mac"
 brew "postgresql"
-brew "postgresql@9.6"
+brew "postgresql@9.6", restart_service: true
 brew "rbenv"
-brew "redis"
+brew "redis", restart_service: true
 brew "tmux"
 brew "vim"
-brew "yarn"
+brew "yarn", args: ["without-node"]
 
-cask "authy"
+cask "authy" unless system("test -e \"#{appdir}/Authy Desktop.app\"")
 cask "charles" unless system("test -e \"#{appdir}/Charles.app\"")
 cask "docker" unless system("test -e \"#{appdir}/Docker.app\"")
 cask "firefox" unless system("test -e \"#{appdir}/Firefox.app\"")
