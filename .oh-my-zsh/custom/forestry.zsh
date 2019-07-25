@@ -2,7 +2,7 @@
 
 export ENABLE_ALL_FEATURES=false
 
-export PG_USER=postgres
+export PG_USER=jordan
 export PG_PASS=
 
 export API_HOSTNAME=local.forestryutils.com
