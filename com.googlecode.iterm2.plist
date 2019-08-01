@@ -129,6 +129,8 @@ Development:Restore Window Arrangement</string>
 			<string></string>
 		</dict>
 	</dict>
+	<key>HapticFeedbackForEsc</key>
+	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -145,6 +147,11 @@ Development:Restore Window Arrangement</string>
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
+	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
+	<array>
+		<string>0.000000, 0.000000, 224.000000, 258.000000, NO, NO</string>
+		<string>0.000000, 259.000000, 224.000000, 48.000000, NO, NO</string>
+	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -168,14 +175,21 @@ Development:Restore Window Arrangement</string>
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>530 490 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 126 606 469 0 0 1920 1080 </string>
+	<string>220 -52 618 521 0 0 1680 1050 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>324 298 796 486 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 55 1920 1002 0 0 1920 1057 </string>
+	<string>0 55 1680 972 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>28 403 570 452 0 0 1920 1057 </string>
+	<string>0 55 1680 972 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>909 375 570 452 0 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_1334867E-C377-4E0E-ACDD-7D48931A03FB</key>
@@ -3761,16 +3775,723 @@ Development:Restore Window Arrangement</string>
 			<string>/Users/jordan</string>
 		</dict>
 	</array>
+	<key>NoSyncAllAppVersions</key>
+	<array>
+		<string>3.2.9</string>
+		<string>3.3.0</string>
+	</array>
+	<key>NoSyncFrame_SessionsPreferences</key>
+	<dict>
+		<key>screenFrame</key>
+		<string>{{0, 0}, {1680, 1050}}</string>
+		<key>topLeft</key>
+		<string>{537, 916}</string>
+	</dict>
+	<key>NoSyncFrame_SharedPreferences</key>
+	<dict>
+		<key>screenFrame</key>
+		<string>{{0, 0}, {1680, 1050}}</string>
+		<key>topLeft</key>
+		<string>{518, 840}</string>
+	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>28177228-FB19-4FEF-BD30-7732D0449DAB</string>
+	<key>NoSyncLaunchExperienceControllerRunCount</key>
+	<integer>1</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>1</integer>
+	<key>NoSyncNextAnnoyanceTime</key>
+	<real>586462313.66993403</real>
+	<key>NoSyncOnboardingWindowHasBeenShown</key>
+	<true/>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
+	<key>NoSyncRecordedVariables</key>
+	<dict>
+		<key>0</key>
+		<array>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string></string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>1</key>
+		<array>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>presentationName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxRole</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>lastCommand</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>profileName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>termid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>id</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>jobName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>columns</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tab.tmuxWindowTitle</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>hostname</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxClientName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>path</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>triggerName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>terminalIconName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxWindowPane</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxStatusRight</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>mouseReportingMode</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>iterm2</string>
+				<key>nonterminalContext</key>
+				<integer>4</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>name</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxPaneTitle</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>rows</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>username</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tty</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>autoLogId</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>badge</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tab.tmuxWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>tab</string>
+				<key>nonterminalContext</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxStatusLeft</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>autoNameFormat</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>autoName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>terminalWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>creationTimeString</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>commandLine</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>jobPid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>pid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>16</key>
+		<array>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.presentationName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.iterm2.localhostName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>style</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>frame</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.pid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalIconName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>currentTab</string>
+				<key>nonterminalContext</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.window</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>id</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.name</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>titleOverride</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.commandLine</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.path</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.hostname</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.tty</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.username</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>iterm2</string>
+				<key>nonterminalContext</key>
+				<integer>4</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>titleOverrideFormat</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.jobName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>2</key>
+		<array>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.commandLine</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.terminalIconName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxWindowTitle</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.presentationName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>iterm2.localhostName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>window</string>
+				<key>nonterminalContext</key>
+				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.tty</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.jobName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.name</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>window</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>id</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>titleOverride</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.username</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>iterm2</string>
+				<key>nonterminalContext</key>
+				<integer>4</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.path</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>titleOverrideFormat</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.hostname</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.terminalWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.pid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tmuxWindow</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>currentSession</string>
+				<key>nonterminalContext</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>4</key>
+		<array>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>pid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>localhostName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>effectiveTheme</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
 	<key>NoSyncReplaceProfileWarning</key>
 	<true/>
 	<key>NoSyncReplaceProfileWarning_selection</key>
@@ -3816,17 +4537,25 @@ Development:Restore Window Arrangement</string>
 	<string>/Users/jordan/dotfiles</string>
 	<key>PromptOnQuit</key>
 	<false/>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=97</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=97</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-07-25T17:44:16Z</date>
+	<date>2019-08-01T17:47:35Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SoundForEsc</key>
+	<false/>
+	<key>TabStyleWithAutomaticOption</key>
+	<integer>5</integer>
+	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>Window Arrangements</key>
 	<dict>
@@ -3840,11 +4569,13 @@ Development:Restore Window Arrangement</string>
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>1080</real>
+				<real>1050</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
 				<true/>
+				<key>Initial Profile</key>
+				<dict/>
 				<key>Is Hotkey Window</key>
 				<false/>
 				<key>Old Height</key>
@@ -3852,11 +4583,11 @@ Development:Restore Window Arrangement</string>
 				<key>Old Width</key>
 				<real>400</real>
 				<key>Old X Origin</key>
-				<real>226</real>
+				<real>191</real>
 				<key>Old Y Origin</key>
-				<real>130</real>
+				<real>124</real>
 				<key>Saved Window Type</key>
-				<integer>4</integer>
+				<integer>13</integer>
 				<key>Screen</key>
 				<integer>0</integer>
 				<key>Selected Tab Index</key>
@@ -4100,7 +4831,7 @@ Development:Restore Window Arrangement</string>
 														<real>0.73333334922790527</real>
 													</dict>
 													<key>Guid</key>
-													<string>F26FD0C5-3B2C-418E-AE7D-B7E8F6F5142F</string>
+													<string>7966EA1F-D72D-45CC-926D-2254D91B5DF7</string>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -4472,15 +5203,15 @@ Development:Restore Window Arrangement</string>
 													<key>Working Directory</key>
 													<string>/Users/jordan</string>
 												</dict>
-												<key>Bookmark Name</key>
-												<string>Development</string>
 												<key>Columns</key>
-												<integer>89</integer>
+												<integer>78</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
 												<array>
 													<string>/Users/jordan</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
@@ -4512,22 +5243,25 @@ Development:Restore Window Arrangement</string>
 												<array/>
 												<key>Is UTF-8</key>
 												<true/>
+												<key>Name Controller State</key>
+												<dict>
+													<key>icon title stack</key>
+													<array/>
+													<key>window title stack</key>
+													<array/>
+												</dict>
 												<key>Program</key>
 												<dict>
 													<key>Type</key>
 													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>30</integer>
-												<key>Session Default Name</key>
-												<string>Development - puma</string>
+												<integer>29</integer>
 												<key>Session GUID</key>
-												<string>23DFB55F-0357-400D-AB54-E546C4D1F6A5</string>
-												<key>Session Name</key>
-												<string>cd</string>
-												<key>Session Window Title</key>
-												<string>cd ~/code/github.com/forestryio/forestry-app; bundle exec foreman run puma -C</string>
+												<string>B36C77C9-4D65-4224-B139-D914477B21D9</string>
 												<key>Shell Integration Ever Used</key>
+												<false/>
+												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict>
@@ -4542,9 +5276,9 @@ Development:Restore Window Arrangement</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>539</real>
+												<real>524</real>
 												<key>width</key>
-												<real>639</real>
+												<real>559</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
@@ -4782,7 +5516,7 @@ Development:Restore Window Arrangement</string>
 														<real>0.73333334922790527</real>
 													</dict>
 													<key>Guid</key>
-													<string>AA2A57F4-5A28-4D1C-B18F-56213954A271</string>
+													<string>06B30529-8EFD-4607-B646-76945268CEDA</string>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -5154,10 +5888,8 @@ Development:Restore Window Arrangement</string>
 													<key>Working Directory</key>
 													<string>/Users/jordan</string>
 												</dict>
-												<key>Bookmark Name</key>
-												<string>Development</string>
 												<key>Columns</key>
-												<integer>89</integer>
+												<integer>78</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -5165,32 +5897,37 @@ Development:Restore Window Arrangement</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/jordan</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
 												<key>Is UTF-8</key>
 												<true/>
+												<key>Name Controller State</key>
+												<dict>
+													<key>icon title stack</key>
+													<array/>
+													<key>window title stack</key>
+													<array/>
+												</dict>
 												<key>Program</key>
 												<dict>
 													<key>Type</key>
 													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>30</integer>
-												<key>Session Default Name</key>
-												<string>Development - webpacker</string>
+												<integer>29</integer>
 												<key>Session GUID</key>
-												<string>10C59657-8F76-46F5-A795-C3BF18FF9F03</string>
-												<key>Session Name</key>
-												<string>cd</string>
-												<key>Session Window Title</key>
-												<string>cd ~/code/github.com/forestryio/forestry-app; yarn ts:start</string>
+												<string>AE1D12CB-1E5D-4A9F-8D1C-86DA62D8DB27</string>
 												<key>Shell Integration Ever Used</key>
+												<false/>
+												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
@@ -5202,18 +5939,18 @@ Development:Restore Window Arrangement</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>539</real>
+												<real>524</real>
 												<key>width</key>
-												<real>639</real>
+												<real>556</real>
 												<key>x</key>
-												<real>640</real>
+												<real>560</real>
 												<key>y</key>
 												<real>0.0</real>
 											</dict>
 										</dict>
 										<dict>
 											<key>Is Active</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>Session</key>
 											<dict>
 												<key>Bookmark</key>
@@ -5442,13 +6179,13 @@ Development:Restore Window Arrangement</string>
 														<real>0.73333334922790527</real>
 													</dict>
 													<key>Guid</key>
-													<string>BBE1CC56-083B-40D0-A1FB-87814E4C4BAD</string>
+													<string>2ADC9B8F-7E62-4178-9939-01BC0876A686</string>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
 													<integer>0</integer>
 													<key>Initial Text</key>
-													<string>cd ~/code/github.com/forestryio/forestry-app; QUEUE=* bundle exec foreman run rake environment resque:scheduler</string>
+													<string>cd ~/code/github.com/forestryio/forestry-app; QUEUE=* bundle exec foreman run rake environment resque:work</string>
 													<key>Jobs to Ignore</key>
 													<array>
 														<string>rlogin</string>
@@ -5814,10 +6551,8 @@ Development:Restore Window Arrangement</string>
 													<key>Working Directory</key>
 													<string>/Users/jordan</string>
 												</dict>
-												<key>Bookmark Name</key>
-												<string>Development</string>
 												<key>Columns</key>
-												<integer>90</integer>
+												<integer>79</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -5825,32 +6560,38 @@ Development:Restore Window Arrangement</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/jordan</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
 												<key>Is UTF-8</key>
 												<true/>
+												<key>Name Controller State</key>
+												<dict>
+													<key>icon title stack</key>
+													<array/>
+													<key>window title stack</key>
+													<array/>
+												</dict>
 												<key>Program</key>
 												<dict>
 													<key>Type</key>
 													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>30</integer>
-												<key>Session Default Name</key>
-												<string>Development - resque</string>
+												<integer>29</integer>
 												<key>Session GUID</key>
-												<string>90F58AEB-C64D-4780-89B7-78A0FA7BFEE2</string>
-												<key>Session Name</key>
-												<string>cd</string>
-												<key>Session Window Title</key>
-												<string>cd ~/code/github.com/forestryio/forestry-app; QUEUE=* bundle exec foreman run</string>
+												<string>8DE414B2-7DF0-4602-BD56-CB39FBB30473</string>
 												<key>Shell Integration Ever Used</key>
+												<false/>
+												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
@@ -5862,11 +6603,11 @@ Development:Restore Window Arrangement</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>539</real>
+												<real>524</real>
 												<key>width</key>
-												<real>640</real>
+												<real>563</real>
 												<key>x</key>
-												<real>1280</real>
+												<real>1117</real>
 												<key>y</key>
 												<real>0.0</real>
 											</dict>
@@ -5877,9 +6618,9 @@ Development:Restore Window Arrangement</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>539</real>
+										<real>524</real>
 										<key>width</key>
-										<real>1920</real>
+										<real>1680</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -5893,7 +6634,7 @@ Development:Restore Window Arrangement</string>
 									<array>
 										<dict>
 											<key>Is Active</key>
-											<integer>1</integer>
+											<integer>0</integer>
 											<key>Session</key>
 											<dict>
 												<key>Bookmark</key>
@@ -6120,7 +6861,7 @@ Development:Restore Window Arrangement</string>
 														<real>0.73333334922790527</real>
 													</dict>
 													<key>Guid</key>
-													<string>77416606-D00E-4C47-873D-E9379D7E34B3</string>
+													<string>0BE1420A-A29F-41D9-BE81-706F559F4568</string>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -6490,10 +7231,8 @@ Development:Restore Window Arrangement</string>
 													<key>Working Directory</key>
 													<string>/Users/jordan</string>
 												</dict>
-												<key>Bookmark Name</key>
-												<string>Development</string>
 												<key>Columns</key>
-												<integer>89</integer>
+												<integer>78</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -6502,32 +7241,36 @@ Development:Restore Window Arrangement</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/jordan</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
 												<key>Is UTF-8</key>
 												<true/>
+												<key>Name Controller State</key>
+												<dict>
+													<key>icon title stack</key>
+													<array/>
+													<key>window title stack</key>
+													<array/>
+												</dict>
 												<key>Program</key>
 												<dict>
 													<key>Type</key>
 													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>30</integer>
-												<key>Session Default Name</key>
-												<string>Default</string>
+												<integer>29</integer>
 												<key>Session GUID</key>
-												<string>F8CDCDAE-D779-4B9F-918F-736C63A99CBA</string>
-												<key>Session Name</key>
-												<string>Default</string>
-												<key>Session Window Title</key>
-												<string>jordan@Jordans-MacBook-Pro: ~/code/github.com/forestryio/forestry-app</string>
+												<string>988F0C5F-EC23-4FD3-9F9E-194B00222866</string>
 												<key>Shell Integration Ever Used</key>
+												<false/>
+												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
@@ -6539,9 +7282,9 @@ Development:Restore Window Arrangement</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>540</real>
+												<real>525</real>
 												<key>width</key>
-												<real>639</real>
+												<real>559</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
@@ -6779,7 +7522,7 @@ Development:Restore Window Arrangement</string>
 														<real>0.73333334922790527</real>
 													</dict>
 													<key>Guid</key>
-													<string>F7B41F02-357E-4100-8C84-22AEBB8F36AA</string>
+													<string>EF15F227-F701-42CB-834A-37BEECBE6006</string>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -7151,10 +7894,8 @@ Development:Restore Window Arrangement</string>
 													<key>Working Directory</key>
 													<string>/Users/jordan</string>
 												</dict>
-												<key>Bookmark Name</key>
-												<string>Development</string>
 												<key>Columns</key>
-												<integer>89</integer>
+												<integer>78</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -7162,32 +7903,37 @@ Development:Restore Window Arrangement</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan/code/github.com/forestryio/admin</string>
+													<string>/Users/jordan/code/github.com/forestryio/admin</string>
+													<string>/Users/jordan/code/github.com/forestryio/admin</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/jordan</string>
+													<string>/Users/jordan/code/github.com/forestryio/admin</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
 												<key>Is UTF-8</key>
 												<true/>
+												<key>Name Controller State</key>
+												<dict>
+													<key>icon title stack</key>
+													<array/>
+													<key>window title stack</key>
+													<array/>
+												</dict>
 												<key>Program</key>
 												<dict>
 													<key>Type</key>
 													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>30</integer>
-												<key>Session Default Name</key>
-												<string>Development - webpack</string>
+												<integer>29</integer>
 												<key>Session GUID</key>
-												<string>1048E1F1-28FB-48F4-B963-BA89CB32C879</string>
-												<key>Session Name</key>
-												<string>cd</string>
-												<key>Session Window Title</key>
-												<string>cd ~/code/github.com/forestryio/admin; yarn start</string>
+												<string>D5F343F5-3B7A-4589-8D78-AB16C6035C9F</string>
 												<key>Shell Integration Ever Used</key>
+												<false/>
+												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
@@ -7199,11 +7945,11 @@ Development:Restore Window Arrangement</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>540</real>
+												<real>525</real>
 												<key>width</key>
-												<real>639</real>
+												<real>556</real>
 												<key>x</key>
-												<real>640</real>
+												<real>560</real>
 												<key>y</key>
 												<real>0.0</real>
 											</dict>
@@ -7451,7 +8197,7 @@ Development:Restore Window Arrangement</string>
 														<real>0.73333334922790527</real>
 													</dict>
 													<key>Guid</key>
-													<string>C4339B10-C7D2-4A28-ADAA-F45496A6CC0E</string>
+													<string>DC9851DA-853F-404B-B1DF-E319222F5A67</string>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -7823,10 +8569,8 @@ Development:Restore Window Arrangement</string>
 													<key>Working Directory</key>
 													<string>/Users/jordan</string>
 												</dict>
-												<key>Bookmark Name</key>
-												<string>Development</string>
 												<key>Columns</key>
-												<integer>90</integer>
+												<integer>79</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -7834,32 +8578,37 @@ Development:Restore Window Arrangement</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan</string>
 													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/jordan</string>
+													<string>/Users/jordan/code/github.com/forestryio/forestry-app</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
 												<key>Is UTF-8</key>
 												<true/>
+												<key>Name Controller State</key>
+												<dict>
+													<key>icon title stack</key>
+													<array/>
+													<key>window title stack</key>
+													<array/>
+												</dict>
 												<key>Program</key>
 												<dict>
 													<key>Type</key>
 													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>30</integer>
-												<key>Session Default Name</key>
-												<string>Development - centrifugo</string>
+												<integer>29</integer>
 												<key>Session GUID</key>
-												<string>674AB044-F891-4D3A-B4C7-B2BEFDCC7C35</string>
-												<key>Session Name</key>
-												<string>cd</string>
-												<key>Session Window Title</key>
-												<string>cd ~/code/github.com/forestryio/forestry-app; script/centrifugo</string>
+												<string>17C87236-D303-42B8-8E6F-1055C028B049</string>
 												<key>Shell Integration Ever Used</key>
+												<false/>
+												<key>Short Lived Single Use</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
@@ -7871,11 +8620,11 @@ Development:Restore Window Arrangement</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>540</real>
+												<real>525</real>
 												<key>width</key>
-												<real>640</real>
+												<real>563</real>
 												<key>x</key>
-												<real>1280</real>
+												<real>1117</real>
 												<key>y</key>
 												<real>0.0</real>
 											</dict>
@@ -7886,13 +8635,13 @@ Development:Restore Window Arrangement</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>540</real>
+										<real>525</real>
 										<key>width</key>
-										<real>1920</real>
+										<real>1680</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>540</real>
+										<real>525</real>
 									</dict>
 									<key>isVertical</key>
 									<true/>
@@ -7903,9 +8652,9 @@ Development:Restore Window Arrangement</string>
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1080</real>
+								<real>1050</real>
 								<key>width</key>
-								<real>1920</real>
+								<real>1680</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -7933,7 +8682,7 @@ Development:Restore Window Arrangement</string>
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>1920</real>
+				<real>1680</real>
 				<key>Window Type</key>
 				<integer>4</integer>
 				<key>X Origin</key>
@@ -7946,6 +8695,6 @@ Development:Restore Window Arrangement</string>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.2.9</string>
+	<string>3.3.0</string>
 </dict>
 </plist>
