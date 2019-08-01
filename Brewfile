@@ -19,6 +19,7 @@ brew "jq"
 brew "kubectx"
 brew "kubernetes-cli"
 brew "libmagic"
+brew "mas"
 brew "openssl"
 brew "node@10"
 brew "pinentry-mac"
@@ -26,6 +27,7 @@ brew "postgresql"
 brew "postgresql@9.6", restart_service: true
 brew "rbenv"
 brew "redis", restart_service: true
+brew "terraform"
 brew "tmux"
 brew "vim"
 brew "yarn", args: ["without-node"]
@@ -43,3 +45,6 @@ cask "tunnelblick" unless system("test -e #{appdir}/Tunnelblick.app")
 cask "spotify" unless system("test -e #{appdir}/Spotify.app")
 cask "visual-studio-code" unless system("test -e \"#{appdir}/Visual Studio Code.app\"")
 cask "zoomus" unless system("test -e \"#{appdir}/zoom.us.app\"")
+
+
+mas "bear", id: 1091189122
