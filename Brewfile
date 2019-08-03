@@ -30,7 +30,7 @@ brew "redis", restart_service: true
 brew "terraform"
 brew "tmux"
 brew "vim"
-brew "yarn", args: ["without-node"]
+brew "yarn"
 
 cask "authy" unless system("test -e \"#{appdir}/Authy Desktop.app\"")
 cask "charles" unless system("test -e \"#{appdir}/Charles.app\"")
