@@ -5,6 +5,8 @@ if [[ ! "which brew" ]]; then
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+brew install git
+
 # Install oh-my-zsh
 if [[ ! -e "$ZSH" ]]; then
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -22,7 +24,7 @@ ln -s $HOME/dotfiles/.zshrc $HOME/.zshrc
 # Link oh-my-zsh customizations
 for filename in $HOME/dotfiles/.oh-my-zsh/custom/*.zsh; do
 	name=$(basename $filename)
-	rm $ZSH/custom/$name
+	rm $ZSH/custom/$name || true
 	ln -s $filename $ZSH/custom/$name
 done
 
